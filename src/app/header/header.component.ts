@@ -9,5 +9,5 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {}
 
-  title: string = 'Angular X';
+  title: string = 'Title';
 }
