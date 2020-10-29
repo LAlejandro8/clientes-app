@@ -1,0 +1,73 @@
+import { Cliente } from './cliente';
+export const CLIENTES: Cliente[] = [
+  {
+    id: 1,
+    nombre: 'Alejandro',
+    apellido: 'Cortés',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+  {
+    id: 1,
+    nombre: 'Angela',
+    apellido: 'Guzman',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+  {
+    id: 1,
+    nombre: 'Javier',
+    apellido: 'Gutierrez',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+  {
+    id: 1,
+    nombre: 'Gloria',
+    apellido: 'Triana',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+  {
+    id: 1,
+    nombre: 'Samuel',
+    apellido: 'Lopez',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+  {
+    id: 1,
+    nombre: 'Angelica',
+    apellido: 'Rodriguez',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+  {
+    id: 1,
+    nombre: 'Camilo',
+    apellido: 'Paloma',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+  {
+    id: 1,
+    nombre: 'Andres',
+    apellido: 'Barmilo',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+  {
+    id: 1,
+    nombre: 'Isabella',
+    apellido: 'Amillategui',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+  {
+    id: 1,
+    nombre: 'Sebastian',
+    apellido: 'Osorio',
+    email: 'correo@correo.com',
+    createAt: '28/10/2020 8:39 PM',
+  },
+];
