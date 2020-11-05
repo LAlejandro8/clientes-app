@@ -6,6 +6,14 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DirectivaComponent } from './directiva/directiva.component';
 import { ClientesComponent } from './clientes/clientes.component';
+import { ClienteService } from './clientes/cliente.service';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  { path: '', redirectTo: '/clientes', pathMatch: 'full' },
+  { path: 'directivas', component: DirectivaComponent },
+  { path: 'clientes', component: ClientesComponent },
+];
 
 @NgModule({
   declarations: [
@@ -15,8 +23,8 @@ import { ClientesComponent } from './clientes/clientes.component';
     DirectivaComponent,
     ClientesComponent,
   ],
-  imports: [BrowserModule],
-  providers: [],
+  imports: [BrowserModule, RouterModule.forRoot(routes)],
+  providers: [ClienteService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
@@ -28,3 +36,5 @@ export class AppModule {}
 /* ng generate component clientes => Este es el comando para crear una nueva directiva.
    Crea la carpeta "clientes" con sus respectivos .css, .html, y .ts
    En este caso la directiva se llama "clientes" :)  */
+
+/* ng g service cliente --> Crea una clase cliente*/
